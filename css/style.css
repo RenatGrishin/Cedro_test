@@ -731,6 +731,9 @@ input:focus{
   }
 
   /* Menu */
+  .header{
+    background-color: #fff;
+  }
   .menuNavigation{
     flex-wrap: wrap;
     padding-left: 16px;
@@ -741,7 +744,6 @@ input:focus{
     padding-top: 90px;
     align-items: start;
     overflow-y: scroll;
-    ackground-color: #fff;
   }
   .menuNavAlign .menuNavigation h2{
     margin-top: 0px;
