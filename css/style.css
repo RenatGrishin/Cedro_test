@@ -740,6 +740,8 @@ input:focus{
   .menuNavAlign{
     padding-top: 90px;
     align-items: start;
+    overflow-y: scroll;
+    ackground-color: #fff;
   }
   .menuNavAlign .menuNavigation h2{
     margin-top: 0px;
