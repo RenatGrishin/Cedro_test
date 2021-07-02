@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cedro_test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" href="fonts/TTNorms/stylesheet.css">
+  <link rel="stylesheet" href="fonts/PFRegalDisplayPro/stylesheet.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container-xxl">
+
+  <div class="row menuWindow">
+    <div class="col-12 col-sm-12">
+      <header class="header">
+        <div class="headerLogo"></div>
+        <input class="js-menuButtonExit" type="submit" value="">
+      </header>
+      <div class="menuNavAlign">
+        <section class="menuNavigation">
+          <nav>
+            <h2><a href="#">Продукция</a></h2>
+            <ul>
+              <li><a href="#">Пигменты</a></li>
+              <li><a href="#">Пигменты</a></li>
+              <li><a href="#">Аппараты</a></li>
+              <li><a href="#">Иглы</a></li>
+              <li><a href="#">Расходные материалы</a></li>
+            </ul>
+          </nav>
+          <nav>
+            <h2><a href="#">Компания</a></h2>
+            <ul>
+              <li><a href="#">Блог</a></li>
+              <li><a href="#">Обучение</a></li>
+              <li><a href="#">Стать представителем</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Политика конфиденциальности</a></li>
+            </ul>
+          </nav>
+          <nav class="footerNavContacts">
+            <h2><a href="#">Продукция</a></h2>
+            <ul>
+              <li><a class="phone" href="#">8 (800) 555-35-35</a></li>
+              <li><a class="email" href="#">cedro@yandex.ru</a></li>
+              <li><a class="time" href="#">Время работы: пн - пт с 10 до 19 </a></li>
+              <li><a class="map" href="#">г. Санкт-Петербург,
+                м. Звездная</a></li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-12 col-sm-12">
+      <header class="header">
+        <div class="headerLogo"></div>
+        <nav>
+          <ul class="headerNav nav">
+            <li><a href="#">Пигменты</a></li>
+            <li><a href="#">ТОВАРЫ ДЛЯ ПМ</a></li>
+            <li><a href="#">Ремувер</a></li>
+            <li><a href="#">АКЦИИ</a></li>
+            <li><a href="#">ОБУЧЕНИЕ</a></li>
+          </ul>
+        </nav>
+        <div class="phone"><a href="#"><span>8 (800) 555-35-35</span></a></div>
+        <div class="bar">
+          <ul>
+            <li><a class="search" href="#"></a></li>
+            <li><a class="favorite" href="#"></a></li>
+            <li><a class="bag" href="#"></a></li>
+            <li><a class="user" href="#"></a></li>
+          </ul>
+        </div>
+        <input class="js-menuButton" type="submit" value="">
+      </header>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-sm-12 col-lg-3 secondNav">
+      <ul class="nav">
+        <li class="selectedPage">Профиль</li>
+        <li><a href="#">Мои заказы</a></li>
+        <li class="navExit"><a href="#">выход</a></li>
+      </ul>
+    </div>
+    <div class="col-12 col-sm-12 col-lg-9 content">
+      <section class="titlePage"><h1>Профиль</h1></section>
+      <section class="unit">
+        <h2>Данные профиля</h2>
+         <form class="js-formUserInfo" method="post">
+           <div class="inputForm">
+             <label for="fio">Имя</label>
+             <input id="fio" class="js-fio" type="text" placeholder="Ф.И.О.">
+             <p>Это обязательное поле</p>
+           </div>
+           <div class="inputForm">
+             <label for="email">Почта</label>
+             <input id="email" class="js-email" type="text" placeholder="domain@email.ru">
+             <p>Это обязательное поле</p>
+           </div>
+           <div class="inputForm">
+             <label for="phone">Телефон</label>
+             <input id="phone" class="js-phone" type="text" placeholder="+7 (999) 999-99-99">
+             <p>Это обязательное поле</p>
+           </div>
+           <div class="inputForm">
+             <label for="login">Имя аккаунта</label>
+             <input id="login" class="js-login" type="text" placeholder="Login">
+             <p>Это обязательное поле</p>
+           </div>
+           <div class="inputForm">
+             <label for="instagram">Профиль в инстаграм</label>
+             <input id="instagram" class="js-instagram" type="text" placeholder="@name">
+             <p>Это обязательное поле</p>
+           </div>
+         </form>
+      </section>
+      <section class="unit">
+        <form class="js-formUserPassword" method="post">
+          <div class="inputForm">
+            <label for="oldPassword">Старый пароль</label>
+            <input id="oldPassword" class="js-oldPassword" type="password" value="4815162342">
+            <span class="js-passwordHideShow"></span>
+          </div>
+          <div class="inputForm">
+            <label for="newPassword">Новый пароль</label>
+            <input id="newPassword" type="text" placeholder="Введите новый пароль">
+          </div>
+        </form>
+      </section>
+      <section class="unit">
+        <input type="submit" value="Сохранить изменения" onclick="submitForms()">
+      </section>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-sm-12">
+      <section class="floor">
+        <h2><span>Тренды</span> сезона</h2>
+        <a class="linkWithArrow" href="#">Все предложения</a>
+        <ul class="catalog">
+          <li>
+            <div class="imgSection">
+              <img src="images/product01.png">
+              <span class="stock">Sale</span>
+              <input class="favoriteSubmit" type="submit" value="">
+            </div>
+            <div class="productColor"></div>
+            <div class="productDescription">
+              <h3><a href="#">Brown to Blonde</a></h3>
+              <p>Пигмент для бровей</p>
+              <p>12 ml.</p>
+              <p class="price">1 500 ₽ <strike>3 000 ₽</strike></p>
+            </div>
+          </li>
+          <li>
+            <div class="imgSection">
+              <img src="images/product01.png">
+              <span class="stock">Акция! 1+1=3</span>
+              <input class="favoriteSubmit" type="submit" value="">
+            </div>
+            <div class="productColor"></div>
+            <div class="productDescription">
+              <h3><a href="#">Brown to Blonde</a></h3>
+              <p>Пигмент для бровей</p>
+              <p>12 ml.</p>
+              <p class="price">1 500 ₽ <strike>3 000 ₽</strike></p>
+            </div>
+          </li>
+          <li>
+            <div class="imgSection">
+              <img src="images/product01.png">
+              <span class="stock">Sale</span>
+              <input class="favoriteSubmit" type="submit" value="">
+            </div>
+            <div class="productColor"></div>
+            <div class="productDescription">
+              <h3><a href="#">Brown to Blonde</a></h3>
+              <p>Пигмент для бровей</p>
+              <p>12 ml.</p>
+              <p class="price">1 500 ₽ <strike>3 000 ₽</strike></p>
+            </div>
+          </li>
+          <li>
+            <div class="imgSection">
+              <img src="images/product01.png">
+              <span class="stock">Акция! 1+1=3</span>
+              <input class="favoriteSubmit" type="submit" value="">
+            </div>
+            <div class="productColor"></div>
+            <div class="productDescription">
+              <h3><a href="#">Brown to Blonde</a></h3>
+              <p>Пигмент для бровей</p>
+              <p>12 ml.</p>
+              <p class="price">1 500 ₽ <strike>3 000 ₽</strike></p>
+            </div>
+          </li>
+          <li>
+            <div class="imgSection">
+              <img src="images/product01.png">
+              <span class="stock">Sale</span>
+              <input class="favoriteSubmit" type="submit" value="">
+            </div>
+            <div class="productColor"></div>
+            <div class="productDescription">
+              <h3><a href="#">Brown to Blonde</a></h3>
+              <p>Пигмент для бровей</p>
+              <p>12 ml.</p>
+              <p class="price">1 500 ₽ <strike>3 000 ₽</strike></p>
+            </div>
+          </li>
+          <li>
+            <div class="imgSection">
+              <img src="images/product01.png">
+              <span class="stock">Акция! 1+1=3</span>
+              <input class="favoriteSubmit" type="submit" value="">
+            </div>
+            <div class="productColor"></div>
+            <div class="productDescription">
+              <h3><a href="#">Brown to Blonde</a></h3>
+              <p>Пигмент для бровей</p>
+              <p>12 ml.</p>
+              <p class="price">1 500 ₽ <strike>3 000 ₽</strike></p>
+            </div>
+          </li>
+          <li>
+            <div class="imgSection">
+              <img src="images/product01.png">
+              <span class="stock">Sale</span>
+              <input class="favoriteSubmit" type="submit" value="">
+            </div>
+            <div class="productColor"></div>
+            <div class="productDescription">
+              <h3><a href="#">Brown to Blonde</a></h3>
+              <p>Пигмент для бровей</p>
+              <p>12 ml.</p>
+              <p class="price">1 500 ₽ <strike>3 000 ₽</strike></p>
+            </div>
+          </li>
+          <li>
+            <div class="imgSection">
+              <img src="images/product01.png">
+              <span class="stock">Акция! 1+1=3</span>
+              <input class="favoriteSubmit" type="submit" value="">
+            </div>
+            <div class="productColor"></div>
+            <div class="productDescription">
+              <h3><a href="#">Brown to Blonde</a></h3>
+              <p>Пигмент для бровей</p>
+              <p>12 ml.</p>
+              <p class="price">1 500 ₽ <strike>3 000 ₽</strike></p>
+            </div>
+          </li>
+          <li>
+            <div class="imgSection">
+              <img src="images/product01.png">
+              <span class="stock">Акция! 1+1=3</span>
+              <input class="favoriteSubmit" type="submit" value="">
+            </div>
+            <div class="productColor"></div>
+            <div class="productDescription">
+              <h3><a href="#">Brown to Blonde</a></h3>
+              <p>Пигмент для бровей</p>
+              <p>12 ml.</p>
+              <p class="price">1 500 ₽ <strike>3 000 ₽</strike></p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-sm-12 footer">
+      <section class="footerNavigation">
+        <nav>
+          <h2><a href="#">Продукция</a></h2>
+          <ul>
+            <li><a href="#">Пигменты</a></li>
+            <li><a href="#">Пигменты</a></li>
+            <li><a href="#">Аппараты</a></li>
+            <li><a href="#">Иглы</a></li>
+            <li><a href="#">Расходные материалы</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <h2><a href="#">Компания</a></h2>
+          <ul>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Обучение</a></li>
+            <li><a href="#">Стать представителем</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Политика конфиденциальности</a></li>
+          </ul>
+        </nav>
+        <nav class="footerNavContacts">
+          <h2><a href="#">Продукция</a></h2>
+          <ul>
+            <li><a class="phone" href="#">8 (800) 555-35-35</a></li>
+            <li><a class="email" href="#">cedro@yandex.ru</a></li>
+            <li><a class="time" href="#">Время работы: пн - пт с 10 до 19 </a></li>
+            <li><a class="map" href="#">г. Санкт-Петербург,
+              м. Звездная</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="cedroStudioInfo">
+        <div class="socialBlock">
+          <a href="#"><img src="images/social-vk.svg"></a>
+          <a href="#"><img src="images/social-fb.svg"></a>
+          <a href="#"><img src="images/social-inst.svg"></a>
+        </div>
+        <a href="#">© Cedro — все права защищены, 2020</a>
+        <a class="cedroLogo" href="#">Сделано в Cedro <img src="images/cedroLogo.svg"></a>
+      </section>
+      <section>
+        <p>Обращаем ваше внимание на то, что данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 (2) Гражданского кодекса Российской Федерации. Для получения подробной информации о наличии и актуальной стоимости указанных на сайте услуг обращайтесь, пожалуйста, по телефонам клиник.</p>
+      </section>
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
